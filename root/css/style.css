@@ -3,8 +3,12 @@
     font-family: sans-serif; 
 }
 
+.big-font {
+    font-size: 16rem;
+}
+
 h1 {
-    border: solid 5px #f8ccdc;
+    border: solid 15px #f8ccdc;
     color: #a2dce7;
     background-color: #ffed86;
     text-align: center;
@@ -14,4 +18,11 @@ h1 {
 
 h2 {
     text-align: center;
+    color: #f8ccdc
+}
+
+@media (max-width: 1098px){
+    .big-font {
+        font-size: 5rem
+    }
 }
