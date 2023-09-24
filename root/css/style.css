@@ -5,10 +5,11 @@
 
 .big-font {
     font-size: 16rem;
+    text-shadow: 5px 6px 6px rgb(26, 5, 247);
 }
 
 h1 {
-    border: solid 15px #f8ccdc;
+    border: 15px solid #f8ccdc;
     color: #a2dce7;
     background-color: #ffed86;
     text-align: center;
@@ -19,6 +20,18 @@ h1 {
 h2 {
     text-align: center;
     color: #f8ccdc
+    font-size: 5rem
+}
+
+.worlds-finest {
+    margin: auto;
+    display: block;
+    border: 5px solid black;
+    width: 40%;
+}
+
+h1, h2, h3 {
+    text-shadow: 0 0 2px black;
 }
 
 @media (max-width: 1098px){
