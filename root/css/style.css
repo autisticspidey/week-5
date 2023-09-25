@@ -1,37 +1,49 @@
  body {
-    background-color: #ffb067;
+    background-color: #a2dce7;
     font-family: sans-serif; 
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
 }
 
 .big-font {
     font-size: 16rem;
-    text-shadow: 5px 6px 6px rgb(26, 5, 247);
+    text-shadow: 6px 6px 6px #00478f;
 }
 
 h1 {
     border: 15px solid #f8ccdc;
     color: #a2dce7;
-    background-color: #ffed86;
+    background-color:  #ffed86;
     text-align: center;
     padding: 15px;
     margin: 10px;
+    font-size: 4rem;
 }
 
 h2 {
     text-align: center;
-    color: #f8ccdc;
+    color: #ffb067;
     font-size: 5rem;
 }
 
-.worlds-finest {
-    margin: auto;
+#worlds-finest {
+    margin: auto; /* centering */
     display: block;
     border: 5px solid black;
     width: 40%;
 }
 
-h1, h2, h3 {
-    text-shadow: 0 0 2px black;
+h1, h2 {
+    text-shadow: 3px 3px 3px black;
+}
+
+h3 {
+    color:aqua;
+    text-shadow: 2px 2px 2px black;
+    font-size: 2rem;
 }
 
 .photos {
@@ -50,17 +62,10 @@ h1, h2, h3 {
     display: block;
 }
 
-/* .img {
-    width: 300px;
-    height: 200px;
-    background-position: center;
-    background-size: contain;
-    background-color: lightgrey;
+footer {
+    color: pink;
+    text-shadow: 2px 3px 3px black; 
 }
-
-.img.mom-james {
-    background-image: url("../images/mom_and_james.JPG");
-} */
 
 @media (max-width: 1098px){
     .big-font {
